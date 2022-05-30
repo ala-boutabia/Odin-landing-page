@@ -1,0 +1,164 @@
+:root {
+    --dark-background: #1F2937;
+    --logo-text: #F9FAF8;
+    --cta-background: #3882f6;
+    --hero-main-text: #F9FAF8;
+    --hero-subtext: #E5E7EB;
+    --information-text: #1F2937;
+    --quote-background: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.big-container {
+    margin: auto 12rem;
+}
+
+/* =========hero section========== */
+
+.hero-section {
+    height: 80vh;
+    background-color: var(--dark-background);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.nav-list {
+    display: flex;
+
+}
+
+.nav-list a {
+    margin: 0 20px;
+    font-size: 18px;
+    color: var(--hero-subtext);
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--logo-text);
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.hero-text {
+    width: 550px;
+    height: 250px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--hero-main-text);
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: var(--hero-subtext);
+    margin-top: 20px;
+}
+
+.cta {
+
+    width: 7rem;
+    height: 2rem;
+    background-color: var(--cta-background);
+    color: var(--logo-text);
+    font-size: 1.1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.hero-image {
+    width: 550px;
+    height: 250px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Information Section */
+
+.projects-section {
+    height: 400px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-card {
+    width: 200px;
+    height: 180px;
+
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    border: solid 4px var(--cta-background);
+    border-radius: 10px;
+}
+
+.subtext {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Quote section */
+
+.quote-section {
+    height: 400px;
+    background-color: var(--quote-background);
+    position: relative;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
