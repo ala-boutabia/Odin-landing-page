@@ -33,7 +33,6 @@ ul {
 .hero-section {
     height: 80vh;
     background-color: var(--dark-background);
-
 }
 
 nav {
@@ -85,7 +84,6 @@ nav {
 }
 
 .cta {
-
     width: 7rem;
     height: 2rem;
     background-color: var(--cta-background);
@@ -144,6 +142,7 @@ nav {
     margin-top: 10px;
     font-size: 14px;
     text-align: center;
+
 }
 
 /* Quote section */
@@ -161,4 +160,71 @@ nav {
     display: flex;
     align-items: center;
     height: 400px;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    height: 400px;
+    background-image: url("./images/nasa-1lfI7wkGWZ4-unsplash.jpg");
+    background-position: center;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.sign-up-section {
+    color: var(--hero-main-text);
+    background-color: var(--cta-background);
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 7rem;
+}
+
+.sign-up-text {
+    color: var(--hero-subtext);
+}
+
+.sign-up-subtext {
+    font-size: 18px;
+    color: var(--hero-subtext);
+}
+
+.call-to-action-button {
+    background-color: var(--cta-background);
+    border: solid white 2px;
+    padding: 5px 30px;
+    border-radius: 4px;
+    color: var(--logo-text);
+    font-size: 1.1rem;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: var(--dark-background);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footer-text {
+    color: var(--dark-background);
+    font-size: 2rem;
+    border-radius: 4px;
+    padding: 5px 25px;
+    background-color: #121b28;
+    color: white;
 }
